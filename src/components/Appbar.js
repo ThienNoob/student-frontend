@@ -10,7 +10,7 @@ export default function Appbar() {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Quan Ly Hoc Sinh
+            Students Management
           </Typography>
         </Toolbar>
       </AppBar>
