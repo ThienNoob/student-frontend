@@ -19,7 +19,7 @@ jobs:
     steps:
       - name: Github REST API Call
         env:
-          CI_TOKEN: ${{ secrets.CI_TOKEN }}
+          CI_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PARENT_REPO: ThienNoob/student
           PARENT_BRANCH: main
           WORKFLOW_ID: 100700786  # Sử dụng ID thực tế của workflow Submodule bên parent
